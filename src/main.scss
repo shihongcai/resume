@@ -306,6 +306,13 @@ a {
     padding: 10px 0 5px;
   }
 
+  .item-h3{
+    float: left;
+    font-weight:bold;
+    font-size: 18px;
+    margin-bottom: 10px;
+
+  }
   .item-hd {
     position: relative;
     padding: 10px 0 5px;
@@ -316,7 +323,8 @@ a {
 
     .item-time {
       display: inline-block;
-      float: left;
+      // float: left;
+      font-weight:bold;
       width: 25%;
       @media screen and (max-width: 720px) {
         width: 100%;
@@ -332,6 +340,12 @@ a {
 
     .item-name {
       float: left;
+    }
+    .item-name-b {
+      float: left;
+      font-weight:bold;
+      font-size: 18px;
+      margin-bottom: 10px;
     }
   }
 
